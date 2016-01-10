@@ -45,7 +45,11 @@ class GameScene: SKScene {
         hourSprite.size = CGSize(width: hourSprite.size.width * 0.6,
             height: hourSprite.size.height * 0.6)
         
-        
+        //zPosition
+        path1Sprite.zPosition = 1
+        secondSprite.zPosition = 4
+        minuteSprite.zPosition = 3
+        hourSprite.zPosition = 2
         //********
         
         self.addChild(path1Sprite)
